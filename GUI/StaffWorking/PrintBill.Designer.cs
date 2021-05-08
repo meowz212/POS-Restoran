@@ -71,10 +71,9 @@
             this.btnPrint.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnPrint.AutoSize = true;
             this.btnPrint.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrint.Location = new System.Drawing.Point(273, 554);
-            this.btnPrint.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPrint.Location = new System.Drawing.Point(205, 450);
             this.btnPrint.Name = "btnPrint";
-            this.btnPrint.Size = new System.Drawing.Size(100, 37);
+            this.btnPrint.Size = new System.Drawing.Size(75, 30);
             this.btnPrint.TabIndex = 34;
             this.btnPrint.Text = "Printer";
             this.btnPrint.UseVisualStyleBackColor = true;
@@ -84,34 +83,31 @@
             // 
             this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(331, 117);
-            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label15.Location = new System.Drawing.Point(206, 96);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(24, 17);
+            this.label15.Size = new System.Drawing.Size(30, 13);
             this.label15.TabIndex = 32;
-            this.label15.Text = "0đ";
+            this.label15.Text = "Rp 0";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbBalance
             // 
             this.lbBalance.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbBalance.AutoSize = true;
-            this.lbBalance.Location = new System.Drawing.Point(331, 137);
-            this.lbBalance.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbBalance.Location = new System.Drawing.Point(206, 112);
             this.lbBalance.Name = "lbBalance";
-            this.lbBalance.Size = new System.Drawing.Size(24, 17);
+            this.lbBalance.Size = new System.Drawing.Size(30, 13);
             this.lbBalance.TabIndex = 31;
-            this.lbBalance.Text = "0đ";
+            this.lbBalance.Text = "Rp 0";
             this.lbBalance.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label13
             // 
             this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(240, 137);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Location = new System.Drawing.Point(138, 112);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(74, 17);
+            this.label13.Size = new System.Drawing.Size(56, 13);
             this.label13.TabIndex = 30;
             this.label13.Text = "Kembalian";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -120,10 +116,9 @@
             // 
             this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(228, 114);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Location = new System.Drawing.Point(129, 94);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(93, 17);
+            this.label12.Size = new System.Drawing.Size(70, 13);
             this.label12.TabIndex = 29;
             this.label12.Text = "Total Dibayar";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -132,70 +127,64 @@
             // 
             this.lbTotal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbTotal.AutoSize = true;
-            this.lbTotal.Location = new System.Drawing.Point(331, 94);
-            this.lbTotal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbTotal.Location = new System.Drawing.Point(206, 77);
             this.lbTotal.Name = "lbTotal";
-            this.lbTotal.Size = new System.Drawing.Size(24, 17);
+            this.lbTotal.Size = new System.Drawing.Size(30, 13);
             this.lbTotal.TabIndex = 28;
-            this.lbTotal.Text = "0đ";
+            this.lbTotal.Text = "Rp 0";
             this.lbTotal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbVAT
             // 
             this.lbVAT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbVAT.AutoSize = true;
-            this.lbVAT.Location = new System.Drawing.Point(331, 71);
-            this.lbVAT.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbVAT.Location = new System.Drawing.Point(206, 59);
             this.lbVAT.Name = "lbVAT";
-            this.lbVAT.Size = new System.Drawing.Size(24, 17);
+            this.lbVAT.Size = new System.Drawing.Size(30, 13);
             this.lbVAT.TabIndex = 27;
-            this.lbVAT.Text = "0đ";
+            this.lbVAT.Text = "Rp 0";
             this.lbVAT.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbExtra
             // 
             this.lbExtra.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbExtra.AutoSize = true;
-            this.lbExtra.Location = new System.Drawing.Point(331, 50);
-            this.lbExtra.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbExtra.Location = new System.Drawing.Point(206, 42);
             this.lbExtra.Name = "lbExtra";
-            this.lbExtra.Size = new System.Drawing.Size(24, 17);
+            this.lbExtra.Size = new System.Drawing.Size(30, 13);
             this.lbExtra.TabIndex = 26;
-            this.lbExtra.Text = "0đ";
+            this.lbExtra.Text = "Rp 0";
             this.lbExtra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbDiscount
             // 
             this.lbDiscount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbDiscount.AutoSize = true;
-            this.lbDiscount.Location = new System.Drawing.Point(331, 27);
-            this.lbDiscount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbDiscount.Location = new System.Drawing.Point(206, 23);
             this.lbDiscount.Name = "lbDiscount";
-            this.lbDiscount.Size = new System.Drawing.Size(24, 17);
+            this.lbDiscount.Size = new System.Drawing.Size(30, 13);
             this.lbDiscount.TabIndex = 25;
-            this.lbDiscount.Text = "0đ";
+            this.lbDiscount.Text = "Rp 0";
             this.lbDiscount.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbFoodPrice
             // 
             this.lbFoodPrice.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbFoodPrice.AutoSize = true;
-            this.lbFoodPrice.Location = new System.Drawing.Point(331, 5);
-            this.lbFoodPrice.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbFoodPrice.Location = new System.Drawing.Point(206, 5);
             this.lbFoodPrice.Name = "lbFoodPrice";
-            this.lbFoodPrice.Size = new System.Drawing.Size(24, 17);
+            this.lbFoodPrice.Size = new System.Drawing.Size(30, 13);
             this.lbFoodPrice.TabIndex = 24;
-            this.lbFoodPrice.Text = "0đ";
+            this.lbFoodPrice.Text = "Rp 0";
             this.lbFoodPrice.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label6
             // 
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(275, 92);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(164, 76);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(40, 17);
+            this.label6.Size = new System.Drawing.Size(31, 13);
             this.label6.TabIndex = 23;
             this.label6.Text = "Total";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -204,10 +193,9 @@
             // 
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(279, 71);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(167, 59);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 17);
+            this.label5.Size = new System.Drawing.Size(28, 13);
             this.label5.TabIndex = 22;
             this.label5.Text = "VAT";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -216,10 +204,9 @@
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(275, 49);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(164, 41);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(40, 17);
+            this.label4.Size = new System.Drawing.Size(31, 13);
             this.label4.TabIndex = 21;
             this.label4.Text = "Extra";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -228,10 +215,9 @@
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(263, 27);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(155, 23);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 17);
+            this.label3.Size = new System.Drawing.Size(40, 13);
             this.label3.TabIndex = 20;
             this.label3.Text = "Diskon";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -240,10 +226,9 @@
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(275, 5);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(164, 5);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 17);
+            this.label2.Size = new System.Drawing.Size(31, 13);
             this.label2.TabIndex = 19;
             this.label2.Text = "Food";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -253,10 +238,9 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(61, 10);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(46, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(288, 31);
+            this.label1.Size = new System.Drawing.Size(231, 25);
             this.label1.TabIndex = 18;
             this.label1.Text = "Cafetaria Informatika";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -265,10 +249,9 @@
             // 
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(79, 41);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(59, 33);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(240, 17);
+            this.label7.Size = new System.Drawing.Size(182, 13);
             this.label7.TabIndex = 35;
             this.label7.Text = "Jl. Teknik Kimia ITS Surabaya 60115";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -276,10 +259,9 @@
             // lbInvoiceNo
             // 
             this.lbInvoiceNo.AutoSize = true;
-            this.lbInvoiceNo.Location = new System.Drawing.Point(5, 100);
-            this.lbInvoiceNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbInvoiceNo.Location = new System.Drawing.Point(4, 81);
             this.lbInvoiceNo.Name = "lbInvoiceNo";
-            this.lbInvoiceNo.Size = new System.Drawing.Size(78, 17);
+            this.lbInvoiceNo.Size = new System.Drawing.Size(62, 13);
             this.lbInvoiceNo.TabIndex = 36;
             this.lbInvoiceNo.Text = "Invoice No:";
             this.lbInvoiceNo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -288,23 +270,22 @@
             // 
             this.lbDate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbDate.AutoSize = true;
-            this.lbDate.Location = new System.Drawing.Point(279, 100);
-            this.lbDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbDate.Location = new System.Drawing.Point(148, 81);
             this.lbDate.Name = "lbDate";
-            this.lbDate.Size = new System.Drawing.Size(64, 17);
+            this.lbDate.Size = new System.Drawing.Size(49, 13);
             this.lbDate.TabIndex = 37;
             this.lbDate.Text = "Tanggal:";
-            this.lbDate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbDate.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbCustomer
             // 
             this.lbCustomer.AutoSize = true;
-            this.lbCustomer.Location = new System.Drawing.Point(5, 76);
-            this.lbCustomer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbCustomer.Location = new System.Drawing.Point(4, 62);
             this.lbCustomer.Name = "lbCustomer";
-            this.lbCustomer.Size = new System.Drawing.Size(65, 17);
+            this.lbCustomer.Size = new System.Drawing.Size(92, 13);
             this.lbCustomer.TabIndex = 38;
-            this.lbCustomer.Text = "Cutomer:";
+            this.lbCustomer.Text = "Nama Pelanggan:";
+            this.lbCustomer.Click += new System.EventHandler(this.lbCustomer_Click);
             // 
             // printDocument
             // 
@@ -335,10 +316,9 @@
             this.btnPageSetup.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnPageSetup.AutoSize = true;
             this.btnPageSetup.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPageSetup.Location = new System.Drawing.Point(20, 554);
-            this.btnPageSetup.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPageSetup.Location = new System.Drawing.Point(15, 450);
             this.btnPageSetup.Name = "btnPageSetup";
-            this.btnPageSetup.Size = new System.Drawing.Size(137, 37);
+            this.btnPageSetup.Size = new System.Drawing.Size(103, 30);
             this.btnPageSetup.TabIndex = 39;
             this.btnPageSetup.Text = "Page Setup";
             this.btnPageSetup.UseVisualStyleBackColor = true;
@@ -349,10 +329,9 @@
             this.btnPreview.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnPreview.AutoSize = true;
             this.btnPreview.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPreview.Location = new System.Drawing.Point(165, 554);
-            this.btnPreview.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPreview.Location = new System.Drawing.Point(124, 450);
             this.btnPreview.Name = "btnPreview";
-            this.btnPreview.Size = new System.Drawing.Size(100, 37);
+            this.btnPreview.Size = new System.Drawing.Size(75, 30);
             this.btnPreview.TabIndex = 40;
             this.btnPreview.Text = "Preview";
             this.btnPreview.UseVisualStyleBackColor = true;
@@ -369,9 +348,8 @@
             this.panelPrint.Controls.Add(this.lbInvoiceNo);
             this.panelPrint.Controls.Add(this.lbDate);
             this.panelPrint.Location = new System.Drawing.Point(1, 1);
-            this.panelPrint.Margin = new System.Windows.Forms.Padding(4);
             this.panelPrint.Name = "panelPrint";
-            this.panelPrint.Size = new System.Drawing.Size(403, 404);
+            this.panelPrint.Size = new System.Drawing.Size(302, 328);
             this.panelPrint.TabIndex = 41;
             // 
             // panelSumary
@@ -390,10 +368,9 @@
             this.panelSumary.Controls.Add(this.lbFoodPrice);
             this.panelSumary.Controls.Add(this.label6);
             this.panelSumary.Controls.Add(this.label5);
-            this.panelSumary.Location = new System.Drawing.Point(4, 210);
-            this.panelSumary.Margin = new System.Windows.Forms.Padding(4);
+            this.panelSumary.Location = new System.Drawing.Point(3, 171);
             this.panelSumary.Name = "panelSumary";
-            this.panelSumary.Size = new System.Drawing.Size(395, 165);
+            this.panelSumary.Size = new System.Drawing.Size(296, 134);
             this.panelSumary.TabIndex = 40;
             // 
             // tableLayoutPanel1
@@ -406,22 +383,20 @@
             this.tableLayoutPanel1.Controls.Add(this.label11, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label16, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.label18, 2, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 121);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 98);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(399, 82);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(299, 67);
             this.tableLayoutPanel1.TabIndex = 39;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(4, 0);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Location = new System.Drawing.Point(3, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(46, 17);
+            this.label11.Size = new System.Drawing.Size(37, 13);
             this.label11.TabIndex = 0;
             this.label11.Text = "Items";
             // 
@@ -429,10 +404,9 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(290, 0);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Location = new System.Drawing.Point(213, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(52, 17);
+            this.label16.Size = new System.Drawing.Size(41, 13);
             this.label16.TabIndex = 2;
             this.label16.Text = "Harga";
             // 
@@ -440,28 +414,27 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(350, 0);
-            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label18.Location = new System.Drawing.Point(260, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(45, 17);
+            this.label18.Size = new System.Drawing.Size(36, 13);
             this.label18.TabIndex = 4;
             this.label18.Text = "Total";
             // 
             // PrintBill
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(400, 601);
+            this.ClientSize = new System.Drawing.Size(300, 488);
             this.Controls.Add(this.panelPrint);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.btnPageSetup);
             this.Controls.Add(this.btnPrint);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "PrintBill";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "PrintBill";
+            this.Load += new System.EventHandler(this.PrintBill_Load);
             this.panelPrint.ResumeLayout(false);
             this.panelPrint.PerformLayout();
             this.panelSumary.ResumeLayout(false);

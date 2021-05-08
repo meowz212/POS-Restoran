@@ -23,7 +23,7 @@ namespace GUI.Control
             {
                 menuItem = value;
                 this.lbName.Text = menuItem.Name;
-                this.lbPrice.Text = string.Format("{0:0}", menuItem.Price) + "đ";
+                this.lbPrice.Text = string.Format("{0:0}", menuItem.Price);
                 this.pictureBox.Image = UtilsImage.ByteArrayToImage(menuItem.Image);
             }
         }
@@ -121,6 +121,11 @@ namespace GUI.Control
         }
 
         private void SelectMenuItemControl_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbName_Click(object sender, EventArgs e)
         {
 
         }

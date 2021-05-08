@@ -21,7 +21,7 @@ namespace GUI.StaffWorking
             set
             {
                 foodPrice = value;
-                this.lbFoodPrice.Text = string.Format("{0:0}", foodPrice) + "đ";
+                this.lbFoodPrice.Text = string.Format("{0:0}", foodPrice);
             }
         }
         private decimal discount;
@@ -31,7 +31,7 @@ namespace GUI.StaffWorking
             set
             {
                 discount = value;
-                this.lbDiscount.Text = string.Format("{0:0}", discount) + "đ";
+                this.lbDiscount.Text = string.Format("{0:0}", discount);
             }
         }
         private decimal extra;
@@ -41,7 +41,7 @@ namespace GUI.StaffWorking
             set
             {
                 extra = value;
-                this.lbExtra.Text = string.Format("{0:0}", extra) + "đ";
+                this.lbExtra.Text = string.Format("{0:0}", extra);
             }
         }
         private decimal vat;
@@ -51,7 +51,7 @@ namespace GUI.StaffWorking
             set
             {
                 vat = value;
-                this.lbVAT.Text = string.Format("{0:0}", vat) + "% (" + string.Format("{0:0}", (this.FoodPrice - this.Discount + this.Extra) * vat / 100) + "đ)";
+                this.lbVAT.Text = string.Format("{0:0}", vat) + "% (" + string.Format("{0:0}", (this.FoodPrice - this.Discount + this.Extra) * vat / 100) + ")";
             }
         }
         private decimal totalPrice;
@@ -61,7 +61,7 @@ namespace GUI.StaffWorking
             set
             {
                 totalPrice = value;
-                this.lbTotal.Text = string.Format("{0:0}", totalPrice) + "đ";
+                this.lbTotal.Text = string.Format("{0:0}", totalPrice);
             }
         }
         private decimal balance;
@@ -71,7 +71,7 @@ namespace GUI.StaffWorking
             set
             {
                 balance = value;
-                this.lbBalance.Text = string.Format("{0:0}", balance) + "đ";
+                this.lbBalance.Text = string.Format("{0:0}", balance);
             }
         }
 
@@ -112,6 +112,11 @@ namespace GUI.StaffWorking
         }
 
         private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PaymentDialog_Load(object sender, EventArgs e)
         {
 
         }

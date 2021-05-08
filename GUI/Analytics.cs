@@ -100,5 +100,10 @@ namespace GUI
                 }
             }
         }
+
+        private void Analytics_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
@@ -52,33 +52,31 @@
             // 
             // chart1
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea2);
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
             this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend2.Enabled = false;
-            legend2.Name = "Legend1";
-            this.chart1.Legends.Add(legend2);
+            legend1.Enabled = false;
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(0, 0);
-            this.chart1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chart1.Name = "chart1";
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Excel;
-            series2.ChartArea = "ChartArea1";
-            series2.IsXValueIndexed = true;
-            series2.Legend = "Legend1";
-            series2.Name = "Revenue";
-            series2.XValueMember = "DateCreated";
-            series2.YValueMembers = "TotalRevenue";
-            this.chart1.Series.Add(series2);
-            this.chart1.Size = new System.Drawing.Size(456, 361);
+            series1.ChartArea = "ChartArea1";
+            series1.IsXValueIndexed = true;
+            series1.Legend = "Legend1";
+            series1.Name = "Revenue";
+            series1.XValueMember = "DateCreated";
+            series1.YValueMembers = "TotalRevenue";
+            this.chart1.Series.Add(series1);
+            this.chart1.Size = new System.Drawing.Size(342, 293);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(16, 15);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker1.Location = new System.Drawing.Point(12, 12);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(265, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 1;
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
@@ -87,8 +85,7 @@
             this.splitContainer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.splitContainer1.Location = new System.Drawing.Point(16, 47);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.splitContainer1.Location = new System.Drawing.Point(12, 38);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -98,9 +95,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.chart1);
-            this.splitContainer1.Size = new System.Drawing.Size(879, 361);
-            this.splitContainer1.SplitterDistance = 418;
-            this.splitContainer1.SplitterWidth = 5;
+            this.splitContainer1.Size = new System.Drawing.Size(659, 293);
+            this.splitContainer1.SplitterDistance = 313;
             this.splitContainer1.TabIndex = 2;
             // 
             // dataGridView1
@@ -113,10 +109,9 @@
             this.NumOrder});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(418, 361);
+            this.dataGridView1.Size = new System.Drawing.Size(313, 293);
             this.dataGridView1.TabIndex = 0;
             // 
             // Datetime
@@ -147,10 +142,9 @@
             // 
             this.rbMonth.AutoSize = true;
             this.rbMonth.Checked = true;
-            this.rbMonth.Location = new System.Drawing.Point(323, 15);
-            this.rbMonth.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbMonth.Location = new System.Drawing.Point(242, 12);
             this.rbMonth.Name = "rbMonth";
-            this.rbMonth.Size = new System.Drawing.Size(81, 21);
+            this.rbMonth.Size = new System.Drawing.Size(64, 17);
             this.rbMonth.TabIndex = 3;
             this.rbMonth.TabStop = true;
             this.rbMonth.Text = "Bulanan";
@@ -160,10 +154,9 @@
             // rbYear
             // 
             this.rbYear.AutoSize = true;
-            this.rbYear.Location = new System.Drawing.Point(423, 15);
-            this.rbYear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbYear.Location = new System.Drawing.Point(317, 12);
             this.rbYear.Name = "rbYear";
-            this.rbYear.Size = new System.Drawing.Size(86, 21);
+            this.rbYear.Size = new System.Drawing.Size(68, 17);
             this.rbYear.TabIndex = 4;
             this.rbYear.Text = "Tahunan";
             this.rbYear.UseVisualStyleBackColor = true;
@@ -171,10 +164,9 @@
             // 
             // btnExport
             // 
-            this.btnExport.Location = new System.Drawing.Point(512, 10);
-            this.btnExport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnExport.Location = new System.Drawing.Point(384, 8);
             this.btnExport.Name = "btnExport";
-            this.btnExport.Size = new System.Drawing.Size(149, 28);
+            this.btnExport.Size = new System.Drawing.Size(112, 23);
             this.btnExport.TabIndex = 5;
             this.btnExport.Text = "Export ke file excel...";
             this.btnExport.UseVisualStyleBackColor = true;
@@ -186,20 +178,20 @@
             // 
             // Analytics
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(896, 407);
+            this.ClientSize = new System.Drawing.Size(672, 331);
             this.Controls.Add(this.btnExport);
             this.Controls.Add(this.rbYear);
             this.Controls.Add(this.rbMonth);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.dateTimePicker1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Analytics";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Analytics";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Analytics_Load);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);

@@ -65,8 +65,8 @@
             // 
             // tabControl
             // 
-            this.tabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl.Controls.Add(this.tabPage1);
             this.tabControl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -126,7 +126,7 @@
             // 
             // layoutButton
             // 
-            this.layoutButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+            this.layoutButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.layoutButton.ColumnCount = 4;
             this.layoutButton.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.3247F));
@@ -199,9 +199,9 @@
             this.lbExtra.AutoSize = true;
             this.lbExtra.Location = new System.Drawing.Point(93, 242);
             this.lbExtra.Name = "lbExtra";
-            this.lbExtra.Size = new System.Drawing.Size(20, 13);
+            this.lbExtra.Size = new System.Drawing.Size(30, 13);
             this.lbExtra.TabIndex = 11;
-            this.lbExtra.Text = "0đ";
+            this.lbExtra.Text = "Rp 0";
             // 
             // lbFoodPrice
             // 
@@ -209,9 +209,9 @@
             this.lbFoodPrice.AutoSize = true;
             this.lbFoodPrice.Location = new System.Drawing.Point(93, 209);
             this.lbFoodPrice.Name = "lbFoodPrice";
-            this.lbFoodPrice.Size = new System.Drawing.Size(20, 13);
+            this.lbFoodPrice.Size = new System.Drawing.Size(30, 13);
             this.lbFoodPrice.TabIndex = 15;
-            this.lbFoodPrice.Text = "0đ";
+            this.lbFoodPrice.Text = "Rp 0";
             // 
             // label3
             // 
@@ -241,9 +241,9 @@
             this.lbTotal.AutoSize = true;
             this.lbTotal.Location = new System.Drawing.Point(93, 271);
             this.lbTotal.Name = "lbTotal";
-            this.lbTotal.Size = new System.Drawing.Size(20, 13);
+            this.lbTotal.Size = new System.Drawing.Size(30, 13);
             this.lbTotal.TabIndex = 13;
-            this.lbTotal.Text = "0đ";
+            this.lbTotal.Text = "Rp 0";
             this.lbTotal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label5
@@ -303,7 +303,7 @@
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+            this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel2.ColumnCount = 2;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -346,7 +346,7 @@
             // 
             this.lbArea.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbArea.AutoSize = true;
-            this.lbArea.Location = new System.Drawing.Point(112, 26);
+            this.lbArea.Location = new System.Drawing.Point(72, 26);
             this.lbArea.Name = "lbArea";
             this.lbArea.Size = new System.Drawing.Size(32, 13);
             this.lbArea.TabIndex = 5;
@@ -363,13 +363,13 @@
             // 
             // txtCustomerName
             // 
-            this.txtCustomerName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.txtCustomerName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCustomerName.Location = new System.Drawing.Point(40, 3);
             this.txtCustomerName.Name = "txtCustomerName";
             this.txtCustomerName.Size = new System.Drawing.Size(107, 20);
             this.txtCustomerName.TabIndex = 2;
-            this.txtCustomerName.Text = "Khách lẻ";
+            this.txtCustomerName.Text = "Pelanggan";
             // 
             // label1
             // 
@@ -382,8 +382,8 @@
             // 
             // flowLayoutPanelRight
             // 
-            this.flowLayoutPanelRight.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.flowLayoutPanelRight.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.flowLayoutPanelRight.AutoScroll = true;
             this.flowLayoutPanelRight.Location = new System.Drawing.Point(0, 42);

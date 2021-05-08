@@ -30,7 +30,7 @@ namespace GUI.StaffWorking
             set
             {
                 discount = value;
-                this.lbDiscount.Text = string.Format("{0:0}", discount) + "đ";
+                this.lbDiscount.Text = "Rp " + string.Format("{0:0}", discount);
             }
         }
         private decimal extra;
@@ -40,7 +40,7 @@ namespace GUI.StaffWorking
             set
             {
                 extra = value;
-                this.lbExtra.Text = string.Format("{0:0}", extra) + "đ";
+                this.lbExtra.Text = "Rp " + string.Format("{0:0}", extra);
             }
         }
         private decimal vat;
@@ -50,7 +50,7 @@ namespace GUI.StaffWorking
             set
             {
                 vat = value;
-                this.lbVAT.Text = string.Format("{0:0}", vat) + "% (" + string.Format("{0:0}", (this.FoodPrice - this.Discount + this.Extra) * vat / 100) + "đ)";
+                this.lbVAT.Text = string.Format("{0:0}", vat) + "% (" + "Rp " + string.Format("{0:0}", (this.FoodPrice - this.Discount + this.Extra) * vat / 100) + ")";
             }
         }
         private decimal totalPrice;
@@ -60,7 +60,7 @@ namespace GUI.StaffWorking
             set
             {
                 totalPrice = value;
-                this.lbTotal.Text = string.Format("{0:0}", totalPrice) + "đ";
+                this.lbTotal.Text = "Rp " + string.Format("{0:0}", totalPrice);
             }
         }
         private decimal balance;
@@ -70,7 +70,7 @@ namespace GUI.StaffWorking
             set
             {
                 balance = value;
-                this.lbBalance.Text = string.Format("{0:0}", balance) + "đ";
+                this.lbBalance.Text = "Rp " + string.Format("{0:0}", balance);
             }
         }
 
@@ -100,7 +100,7 @@ namespace GUI.StaffWorking
                 var od = orderDetails[i];
                 Label lbFood = new Label { Text = od.MenuItem.Name };
                 Label lbQuantity = new Label { Text = od.Quantity.ToString() };
-                Label lbPrice = new Label { Text = string.Format("{0:0}", od.Price) + "đ" };
+                Label lbPrice = new Label { Text = "Rp " + string.Format("{0:0}", od.Price)};
                 this.tableLayoutPanel1.RowStyles.Add(new RowStyle());
                 this.tableLayoutPanel1.Controls.Add(lbFood, 0, i + 1);
                 this.tableLayoutPanel1.Controls.Add(lbQuantity, 1, i + 1);
@@ -109,8 +109,8 @@ namespace GUI.StaffWorking
 
             this.panelSumary.Location = new Point(0, this.tableLayoutPanel1.Location.Y + this.tableLayoutPanel1.Size.Height);
             this.lbInvoiceNo.Text = "Invoice No: " + this.order.InvoiceNo.ToString();
-            this.lbCustomer.Text = "Customer: " + this.order.CustomerName;
-            this.lbDate.Text = "Date: " + this.order.DateCreated.ToString();
+            this.lbCustomer.Text = "Nama Pelanggan: " + this.order.CustomerName;
+            this.lbDate.Text = "Tanggal: " + this.order.DateCreated.ToString();
             this.Balance = (decimal)this.order.MoneyCharge;
         }
 
@@ -139,6 +139,16 @@ namespace GUI.StaffWorking
         private void btnPreview_Click(object sender, EventArgs e)
         {
             this.printPreviewDialog.ShowDialog();
+        }
+
+        private void PrintBill_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbCustomer_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
