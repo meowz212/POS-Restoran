@@ -127,5 +127,10 @@ namespace GUI.Control
         {
             this.OnClick(e);
         }
+
+        private void TableControl_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

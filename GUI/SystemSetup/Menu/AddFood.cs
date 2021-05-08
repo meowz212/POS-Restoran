@@ -85,5 +85,10 @@ namespace GUI.SystemSetup.Menu
             this.openFileDialog.ShowDialog();
             this.pictureBox.Image=Utilities.UtilsImage.ByteArrayToImage(File.ReadAllBytes(this.openFileDialog.FileName));
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

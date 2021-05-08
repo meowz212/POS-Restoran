@@ -40,23 +40,27 @@
             // btnAddFood
             // 
             this.btnAddFood.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAddFood.Location = new System.Drawing.Point(512, 153);
+            this.btnAddFood.BackColor = System.Drawing.Color.LimeGreen;
+            this.btnAddFood.Location = new System.Drawing.Point(683, 188);
+            this.btnAddFood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddFood.Name = "btnAddFood";
-            this.btnAddFood.Size = new System.Drawing.Size(104, 23);
+            this.btnAddFood.Size = new System.Drawing.Size(139, 28);
             this.btnAddFood.TabIndex = 0;
-            this.btnAddFood.Text = "Add food";
-            this.btnAddFood.UseVisualStyleBackColor = true;
+            this.btnAddFood.Text = "Tambah Makanan";
+            this.btnAddFood.UseVisualStyleBackColor = false;
             this.btnAddFood.Click += new System.EventHandler(this.btnAddFood_Click);
             // 
             // btnDeleteMenu
             // 
             this.btnDeleteMenu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnDeleteMenu.Location = new System.Drawing.Point(512, 93);
+            this.btnDeleteMenu.BackColor = System.Drawing.Color.Tomato;
+            this.btnDeleteMenu.Location = new System.Drawing.Point(683, 114);
+            this.btnDeleteMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDeleteMenu.Name = "btnDeleteMenu";
-            this.btnDeleteMenu.Size = new System.Drawing.Size(104, 23);
+            this.btnDeleteMenu.Size = new System.Drawing.Size(139, 28);
             this.btnDeleteMenu.TabIndex = 1;
-            this.btnDeleteMenu.Text = "Delete Menu";
-            this.btnDeleteMenu.UseVisualStyleBackColor = true;
+            this.btnDeleteMenu.Text = "Hapus Menu";
+            this.btnDeleteMenu.UseVisualStyleBackColor = false;
             this.btnDeleteMenu.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // tabControl
@@ -65,18 +69,20 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl.Controls.Add(this.tabPage1);
-            this.tabControl.Location = new System.Drawing.Point(3, 9);
+            this.tabControl.Location = new System.Drawing.Point(4, 11);
+            this.tabControl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(503, 307);
+            this.tabControl.Size = new System.Drawing.Size(671, 378);
             this.tabControl.TabIndex = 4;
             // 
             // tabPage1
             // 
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(495, 281);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Size = new System.Drawing.Size(663, 349);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -84,35 +90,41 @@
             // btnEditMenu
             // 
             this.btnEditMenu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnEditMenu.Location = new System.Drawing.Point(512, 60);
+            this.btnEditMenu.BackColor = System.Drawing.Color.Aqua;
+            this.btnEditMenu.Location = new System.Drawing.Point(683, 74);
+            this.btnEditMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEditMenu.Name = "btnEditMenu";
-            this.btnEditMenu.Size = new System.Drawing.Size(104, 27);
+            this.btnEditMenu.Size = new System.Drawing.Size(139, 33);
             this.btnEditMenu.TabIndex = 5;
             this.btnEditMenu.Text = "Edit Menu";
-            this.btnEditMenu.UseVisualStyleBackColor = true;
+            this.btnEditMenu.UseVisualStyleBackColor = false;
             this.btnEditMenu.Click += new System.EventHandler(this.btnEditMenu_Click);
             // 
             // btnAddMenu
             // 
             this.btnAddMenu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAddMenu.Location = new System.Drawing.Point(512, 31);
+            this.btnAddMenu.BackColor = System.Drawing.Color.Aqua;
+            this.btnAddMenu.Location = new System.Drawing.Point(683, 38);
+            this.btnAddMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddMenu.Name = "btnAddMenu";
-            this.btnAddMenu.Size = new System.Drawing.Size(104, 23);
+            this.btnAddMenu.Size = new System.Drawing.Size(139, 28);
             this.btnAddMenu.TabIndex = 0;
-            this.btnAddMenu.Text = "Add menu";
-            this.btnAddMenu.UseVisualStyleBackColor = true;
+            this.btnAddMenu.Text = "Tambah Menu";
+            this.btnAddMenu.UseVisualStyleBackColor = false;
             this.btnAddMenu.Click += new System.EventHandler(this.btnAddMenu_Click);
             // 
             // MenuSetup
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(628, 322);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(837, 396);
             this.Controls.Add(this.btnEditMenu);
             this.Controls.Add(this.tabControl);
             this.Controls.Add(this.btnDeleteMenu);
             this.Controls.Add(this.btnAddMenu);
             this.Controls.Add(this.btnAddFood);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MenuSetup";
             this.Text = "Menusetup";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

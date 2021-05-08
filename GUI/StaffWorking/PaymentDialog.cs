@@ -105,5 +105,15 @@ namespace GUI.StaffWorking
             new PrintBill(this.order, this.FoodPrice, this.Discount, this.Extra, this.VAT, this.TotalPrice).ShowDialog();
             this.Close();
         }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

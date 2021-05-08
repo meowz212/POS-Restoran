@@ -44,12 +44,14 @@
             // btnAddDepartment
             // 
             this.btnAddDepartment.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAddDepartment.Location = new System.Drawing.Point(614, 12);
+            this.btnAddDepartment.BackColor = System.Drawing.Color.LimeGreen;
+            this.btnAddDepartment.Location = new System.Drawing.Point(819, 15);
+            this.btnAddDepartment.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddDepartment.Name = "btnAddDepartment";
-            this.btnAddDepartment.Size = new System.Drawing.Size(116, 23);
+            this.btnAddDepartment.Size = new System.Drawing.Size(155, 28);
             this.btnAddDepartment.TabIndex = 3;
-            this.btnAddDepartment.Text = "Add a department";
-            this.btnAddDepartment.UseVisualStyleBackColor = true;
+            this.btnAddDepartment.Text = "Tambah Departemen";
+            this.btnAddDepartment.UseVisualStyleBackColor = false;
             this.btnAddDepartment.Click += new System.EventHandler(this.btnAddDepartment_Click);
             // 
             // tabPage1
@@ -61,65 +63,70 @@
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.deleteToolStripMenuItem,
             this.editToolStripMenuItem,
             this.editPasswordToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(161, 70);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(187, 76);
             // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(186, 24);
             this.deleteToolStripMenuItem.Text = "Delete";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(186, 24);
             this.editToolStripMenuItem.Text = "Edit Information";
             this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
             // 
             // editPasswordToolStripMenuItem
             // 
             this.editPasswordToolStripMenuItem.Name = "editPasswordToolStripMenuItem";
-            this.editPasswordToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.editPasswordToolStripMenuItem.Size = new System.Drawing.Size(186, 24);
             this.editPasswordToolStripMenuItem.Text = "Edit Password";
             this.editPasswordToolStripMenuItem.Click += new System.EventHandler(this.editPasswordToolStripMenuItem_Click);
             // 
             // tabControl
             // 
-            this.tabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl.Controls.Add(this.tabPage2);
-            this.tabControl.Location = new System.Drawing.Point(20, 53);
+            this.tabControl.Location = new System.Drawing.Point(27, 65);
+            this.tabControl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(710, 228);
+            this.tabControl.Size = new System.Drawing.Size(947, 281);
             this.tabControl.TabIndex = 2;
             this.tabControl.TabIndexChanged += new System.EventHandler(this.tabControl_TabIndexChanged);
             // 
             // tabPage2
             // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(702, 202);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Size = new System.Drawing.Size(939, 252);
             this.tabPage2.TabIndex = 0;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // DepartmentSetup
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(742, 307);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(989, 378);
             this.ContextMenuStrip = this.contextMenuStrip1;
             this.Controls.Add(this.btnAddDepartment);
             this.Controls.Add(this.tabControl);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "DepartmentSetup";
             this.Text = "DepartmentSetup";
             this.Resize += new System.EventHandler(this.DepartmentSetup_Resize);

@@ -101,5 +101,10 @@ namespace GUI.StaffWorking
         {
             if (rbCash.Checked == true) rbPercent.Checked = false;
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

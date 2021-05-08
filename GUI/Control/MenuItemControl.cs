@@ -84,7 +84,7 @@ namespace GUI.Control
             this.hover--;
             if (this.hover <= 0)
             {
-                this.BackColor = Color.Transparent;
+                this.BackColor = Color.PaleGreen;
             }
         }
 
@@ -106,6 +106,11 @@ namespace GUI.Control
         {
             if (this.OnEdit != null)
                 this.OnEdit(this);
+        }
+
+        private void MenuItemControl_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
