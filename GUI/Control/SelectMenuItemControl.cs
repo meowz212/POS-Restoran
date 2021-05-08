@@ -23,7 +23,7 @@ namespace GUI.Control
             {
                 menuItem = value;
                 this.lbName.Text = menuItem.Name;
-                this.lbPrice.Text = string.Format("{0:0}", menuItem.Price);
+                this.lbPrice.Text = string.Format("{0:0.00}", menuItem.Price);
                 this.pictureBox.Image = UtilsImage.ByteArrayToImage(menuItem.Image);
             }
         }
