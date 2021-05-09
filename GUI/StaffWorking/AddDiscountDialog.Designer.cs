@@ -39,11 +39,11 @@
             // 
             // btAdd
             // 
-            this.btAdd.BackColor = System.Drawing.Color.LimeGreen;
-            this.btAdd.Location = new System.Drawing.Point(300, 131);
-            this.btAdd.Margin = new System.Windows.Forms.Padding(4);
+            this.btAdd.BackColor = System.Drawing.Color.PaleGreen;
+            this.btAdd.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btAdd.Location = new System.Drawing.Point(224, 107);
             this.btAdd.Name = "btAdd";
-            this.btAdd.Size = new System.Drawing.Size(100, 28);
+            this.btAdd.Size = new System.Drawing.Size(75, 23);
             this.btAdd.TabIndex = 21;
             this.btAdd.Text = "Tambah";
             this.btAdd.UseVisualStyleBackColor = false;
@@ -52,11 +52,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(13, 135);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(9, 110);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(94, 17);
+            this.label2.Size = new System.Drawing.Size(84, 17);
             this.label2.TabIndex = 19;
             this.label2.Text = "Nilai Diskon";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -65,11 +64,10 @@
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(135, 11);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(79, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(163, 25);
+            this.label1.Size = new System.Drawing.Size(148, 25);
             this.label1.TabIndex = 18;
             this.label1.Text = "Tambah Diskon";
             // 
@@ -77,10 +75,10 @@
             // 
             this.rbPercent.AutoSize = true;
             this.rbPercent.Checked = true;
-            this.rbPercent.Location = new System.Drawing.Point(16, 59);
-            this.rbPercent.Margin = new System.Windows.Forms.Padding(4);
+            this.rbPercent.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPercent.Location = new System.Drawing.Point(12, 48);
             this.rbPercent.Name = "rbPercent";
-            this.rbPercent.Size = new System.Drawing.Size(143, 21);
+            this.rbPercent.Size = new System.Drawing.Size(113, 17);
             this.rbPercent.TabIndex = 22;
             this.rbPercent.TabStop = true;
             this.rbPercent.Text = "Persen Diskon(%)";
@@ -90,10 +88,10 @@
             // rbCash
             // 
             this.rbCash.AutoSize = true;
-            this.rbCash.Location = new System.Drawing.Point(233, 59);
-            this.rbCash.Margin = new System.Windows.Forms.Padding(4);
+            this.rbCash.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbCash.Location = new System.Drawing.Point(175, 48);
             this.rbCash.Name = "rbCash";
-            this.rbCash.Size = new System.Drawing.Size(160, 21);
+            this.rbCash.Size = new System.Drawing.Size(131, 17);
             this.rbCash.TabIndex = 23;
             this.rbCash.Text = "Diskon Nominal(IDR)";
             this.rbCash.UseVisualStyleBackColor = true;
@@ -101,30 +99,28 @@
             // 
             // tvDiscount
             // 
-            this.tvDiscount.Location = new System.Drawing.Point(140, 135);
-            this.tvDiscount.Margin = new System.Windows.Forms.Padding(4);
+            this.tvDiscount.Location = new System.Drawing.Point(105, 110);
             this.tvDiscount.Maximum = new decimal(new int[] {
             -402653185,
             -1613725636,
             54210108,
             0});
             this.tvDiscount.Name = "tvDiscount";
-            this.tvDiscount.Size = new System.Drawing.Size(136, 22);
+            this.tvDiscount.Size = new System.Drawing.Size(102, 20);
             this.tvDiscount.TabIndex = 24;
             // 
             // AddDiscountDialog
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(413, 231);
+            this.ClientSize = new System.Drawing.Size(310, 188);
             this.Controls.Add(this.tvDiscount);
             this.Controls.Add(this.rbCash);
             this.Controls.Add(this.rbPercent);
             this.Controls.Add(this.btAdd);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AddDiscountDialog";
             this.Text = "AddDiscountDialog";
             ((System.ComponentModel.ISupportInitialize)(this.tvDiscount)).EndInit();

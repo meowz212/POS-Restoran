@@ -50,14 +50,14 @@ namespace GUI.StaffWorking
         {
             this.numericUpDown1.ReadOnly = this.checkBox1.Checked;
             this.numericUpDown1.Controls[0].Visible = !this.checkBox1.Checked;
-            if(this.checkBox1.Checked)
+            if(!this.checkBox1.Checked)
                 this.numericUpDown1.Value = 0;
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
             OrderBLL orderBLL = new OrderBLL();
-            if (this.checkBox1.Checked)
+            if (!this.checkBox1.Checked)
             {
                 orderBLL.AddVAT(this.Order, null);
             }

@@ -56,9 +56,9 @@
             this.lbName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbName.Location = new System.Drawing.Point(93, 3);
             this.lbName.Name = "lbName";
-            this.lbName.Size = new System.Drawing.Size(204, 20);
+            this.lbName.Size = new System.Drawing.Size(133, 20);
             this.lbName.TabIndex = 1;
-            this.lbName.Text = "Sườn non xào chua ngọt";
+            this.lbName.Text = "Nama Makanan";
             this.lbName.Click += new System.EventHandler(this.lbName_Click);
             // 
             // lbPrice

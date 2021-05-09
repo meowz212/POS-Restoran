@@ -111,7 +111,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(40, 20);
             this.label5.TabIndex = 4;
-            this.label5.Text = "VAT";
+            this.label5.Text = "PPN";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label6

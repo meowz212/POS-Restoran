@@ -263,9 +263,9 @@
             this.lbDiscount.AutoSize = true;
             this.lbDiscount.Location = new System.Drawing.Point(94, 226);
             this.lbDiscount.Name = "lbDiscount";
-            this.lbDiscount.Size = new System.Drawing.Size(21, 13);
+            this.lbDiscount.Size = new System.Drawing.Size(24, 13);
             this.lbDiscount.TabIndex = 9;
-            this.lbDiscount.Text = "0%";
+            this.lbDiscount.Text = "0 %";
             this.lbDiscount.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label4
@@ -285,9 +285,9 @@
             this.lbVAT.AutoSize = true;
             this.lbVAT.Location = new System.Drawing.Point(93, 256);
             this.lbVAT.Name = "lbVAT";
-            this.lbVAT.Size = new System.Drawing.Size(21, 13);
+            this.lbVAT.Size = new System.Drawing.Size(24, 13);
             this.lbVAT.TabIndex = 7;
-            this.lbVAT.Text = "0%";
+            this.lbVAT.Text = "0 %";
             this.lbVAT.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label2
@@ -296,9 +296,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(62, 256);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(28, 13);
+            this.label2.Size = new System.Drawing.Size(29, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "VAT";
+            this.label2.Text = "PPN";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // tableLayoutPanel2

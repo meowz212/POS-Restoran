@@ -37,11 +37,10 @@
             // btnSave
             // 
             this.btnSave.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnSave.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnSave.Location = new System.Drawing.Point(125, 129);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSave.BackColor = System.Drawing.Color.PaleGreen;
+            this.btnSave.Location = new System.Drawing.Point(99, 115);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(100, 28);
+            this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 7;
             this.btnSave.Text = "Simpan";
             this.btnSave.UseVisualStyleBackColor = false;
@@ -52,10 +51,9 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(99, 22);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(74, 18);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(172, 25);
+            this.label2.Size = new System.Drawing.Size(145, 20);
             this.label2.TabIndex = 6;
             this.label2.Text = "Edit Departemen";
             // 
@@ -63,34 +61,31 @@
             // 
             this.tvNameOfDepartment.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tvNameOfDepartment.Location = new System.Drawing.Point(15, 97);
-            this.tvNameOfDepartment.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tvNameOfDepartment.Location = new System.Drawing.Point(11, 79);
             this.tvNameOfDepartment.Name = "tvNameOfDepartment";
-            this.tvNameOfDepartment.Size = new System.Drawing.Size(335, 22);
+            this.tvNameOfDepartment.Size = new System.Drawing.Size(252, 20);
             this.tvNameOfDepartment.TabIndex = 5;
             this.tvNameOfDepartment.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tvNameOfDepartment_KeyUp);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 76);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(10, 62);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(127, 17);
+            this.label1.Size = new System.Drawing.Size(96, 13);
             this.label1.TabIndex = 4;
             this.label1.Text = "Nama Departemen";
             // 
             // DepartmentEditDialog
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(369, 185);
+            this.ClientSize = new System.Drawing.Size(277, 150);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tvNameOfDepartment);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "DepartmentEditDialog";
             this.Text = "DepartmentEditDialog";
             this.ResumeLayout(false);

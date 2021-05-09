@@ -96,5 +96,15 @@ namespace GUI
             // unlock login
             this.LockLogin = false;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

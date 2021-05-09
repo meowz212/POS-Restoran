@@ -35,5 +35,20 @@ namespace GUI
         {
             new MenuSetup().Show();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            new SeatSetup().Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            new MenuSetup().Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            new DepartmentSetup().Show();
+        }
     }
 }

@@ -71,7 +71,7 @@
             this.btnPrint.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnPrint.AutoSize = true;
             this.btnPrint.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrint.Location = new System.Drawing.Point(205, 450);
+            this.btnPrint.Location = new System.Drawing.Point(217, 450);
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.Size = new System.Drawing.Size(75, 30);
             this.btnPrint.TabIndex = 34;
@@ -83,7 +83,7 @@
             // 
             this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(206, 96);
+            this.label15.Location = new System.Drawing.Point(227, 96);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(30, 13);
             this.label15.TabIndex = 32;
@@ -94,7 +94,7 @@
             // 
             this.lbBalance.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbBalance.AutoSize = true;
-            this.lbBalance.Location = new System.Drawing.Point(206, 112);
+            this.lbBalance.Location = new System.Drawing.Point(227, 112);
             this.lbBalance.Name = "lbBalance";
             this.lbBalance.Size = new System.Drawing.Size(30, 13);
             this.lbBalance.TabIndex = 31;
@@ -105,7 +105,7 @@
             // 
             this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(138, 112);
+            this.label13.Location = new System.Drawing.Point(159, 112);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(56, 13);
             this.label13.TabIndex = 30;
@@ -116,7 +116,7 @@
             // 
             this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(129, 94);
+            this.label12.Location = new System.Drawing.Point(150, 94);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(70, 13);
             this.label12.TabIndex = 29;
@@ -127,7 +127,7 @@
             // 
             this.lbTotal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbTotal.AutoSize = true;
-            this.lbTotal.Location = new System.Drawing.Point(206, 77);
+            this.lbTotal.Location = new System.Drawing.Point(227, 77);
             this.lbTotal.Name = "lbTotal";
             this.lbTotal.Size = new System.Drawing.Size(30, 13);
             this.lbTotal.TabIndex = 28;
@@ -138,7 +138,7 @@
             // 
             this.lbVAT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbVAT.AutoSize = true;
-            this.lbVAT.Location = new System.Drawing.Point(206, 59);
+            this.lbVAT.Location = new System.Drawing.Point(227, 59);
             this.lbVAT.Name = "lbVAT";
             this.lbVAT.Size = new System.Drawing.Size(30, 13);
             this.lbVAT.TabIndex = 27;
@@ -149,7 +149,7 @@
             // 
             this.lbExtra.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbExtra.AutoSize = true;
-            this.lbExtra.Location = new System.Drawing.Point(206, 42);
+            this.lbExtra.Location = new System.Drawing.Point(227, 42);
             this.lbExtra.Name = "lbExtra";
             this.lbExtra.Size = new System.Drawing.Size(30, 13);
             this.lbExtra.TabIndex = 26;
@@ -160,7 +160,7 @@
             // 
             this.lbDiscount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbDiscount.AutoSize = true;
-            this.lbDiscount.Location = new System.Drawing.Point(206, 23);
+            this.lbDiscount.Location = new System.Drawing.Point(227, 23);
             this.lbDiscount.Name = "lbDiscount";
             this.lbDiscount.Size = new System.Drawing.Size(30, 13);
             this.lbDiscount.TabIndex = 25;
@@ -171,7 +171,7 @@
             // 
             this.lbFoodPrice.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbFoodPrice.AutoSize = true;
-            this.lbFoodPrice.Location = new System.Drawing.Point(206, 5);
+            this.lbFoodPrice.Location = new System.Drawing.Point(227, 5);
             this.lbFoodPrice.Name = "lbFoodPrice";
             this.lbFoodPrice.Size = new System.Drawing.Size(30, 13);
             this.lbFoodPrice.TabIndex = 24;
@@ -182,7 +182,7 @@
             // 
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(164, 76);
+            this.label6.Location = new System.Drawing.Point(185, 76);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(31, 13);
             this.label6.TabIndex = 23;
@@ -193,18 +193,18 @@
             // 
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(167, 59);
+            this.label5.Location = new System.Drawing.Point(188, 59);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(28, 13);
+            this.label5.Size = new System.Drawing.Size(29, 13);
             this.label5.TabIndex = 22;
-            this.label5.Text = "VAT";
+            this.label5.Text = "PPN";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label4
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(164, 41);
+            this.label4.Location = new System.Drawing.Point(185, 41);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(31, 13);
             this.label4.TabIndex = 21;
@@ -215,7 +215,7 @@
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(155, 23);
+            this.label3.Location = new System.Drawing.Point(176, 23);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(40, 13);
             this.label3.TabIndex = 20;
@@ -226,7 +226,7 @@
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(164, 5);
+            this.label2.Location = new System.Drawing.Point(185, 5);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(31, 13);
             this.label2.TabIndex = 19;
@@ -238,7 +238,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(46, 8);
+            this.label1.Location = new System.Drawing.Point(56, 8);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(231, 25);
             this.label1.TabIndex = 18;
@@ -249,7 +249,7 @@
             // 
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(59, 33);
+            this.label7.Location = new System.Drawing.Point(69, 33);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(182, 13);
             this.label7.TabIndex = 35;
@@ -270,7 +270,7 @@
             // 
             this.lbDate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbDate.AutoSize = true;
-            this.lbDate.Location = new System.Drawing.Point(148, 81);
+            this.lbDate.Location = new System.Drawing.Point(169, 81);
             this.lbDate.Name = "lbDate";
             this.lbDate.Size = new System.Drawing.Size(49, 13);
             this.lbDate.TabIndex = 37;
@@ -316,7 +316,7 @@
             this.btnPageSetup.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnPageSetup.AutoSize = true;
             this.btnPageSetup.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPageSetup.Location = new System.Drawing.Point(15, 450);
+            this.btnPageSetup.Location = new System.Drawing.Point(27, 450);
             this.btnPageSetup.Name = "btnPageSetup";
             this.btnPageSetup.Size = new System.Drawing.Size(103, 30);
             this.btnPageSetup.TabIndex = 39;
@@ -329,7 +329,7 @@
             this.btnPreview.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnPreview.AutoSize = true;
             this.btnPreview.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPreview.Location = new System.Drawing.Point(124, 450);
+            this.btnPreview.Location = new System.Drawing.Point(136, 450);
             this.btnPreview.Name = "btnPreview";
             this.btnPreview.Size = new System.Drawing.Size(75, 30);
             this.btnPreview.TabIndex = 40;
@@ -349,7 +349,7 @@
             this.panelPrint.Controls.Add(this.lbDate);
             this.panelPrint.Location = new System.Drawing.Point(1, 1);
             this.panelPrint.Name = "panelPrint";
-            this.panelPrint.Size = new System.Drawing.Size(302, 328);
+            this.panelPrint.Size = new System.Drawing.Size(323, 328);
             this.panelPrint.TabIndex = 41;
             // 
             // panelSumary
@@ -370,7 +370,7 @@
             this.panelSumary.Controls.Add(this.label5);
             this.panelSumary.Location = new System.Drawing.Point(3, 171);
             this.panelSumary.Name = "panelSumary";
-            this.panelSumary.Size = new System.Drawing.Size(296, 134);
+            this.panelSumary.Size = new System.Drawing.Size(317, 134);
             this.panelSumary.TabIndex = 40;
             // 
             // tableLayoutPanel1
@@ -387,7 +387,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(299, 67);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(320, 67);
             this.tableLayoutPanel1.TabIndex = 39;
             // 
             // label11
@@ -404,7 +404,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(213, 0);
+            this.label16.Location = new System.Drawing.Point(234, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(41, 13);
             this.label16.TabIndex = 2;
@@ -414,7 +414,7 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(260, 0);
+            this.label18.Location = new System.Drawing.Point(281, 0);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(36, 13);
             this.label18.TabIndex = 4;
@@ -425,7 +425,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(300, 488);
+            this.ClientSize = new System.Drawing.Size(325, 488);
             this.Controls.Add(this.panelPrint);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.btnPageSetup);

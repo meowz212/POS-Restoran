@@ -28,71 +28,119 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnSystemSetup = new System.Windows.Forms.Button();
-            this.btnWork = new System.Windows.Forms.Button();
-            this.btnAnalytics = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FeatureSelector));
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnSystemSetup
+            // pictureBox1
             // 
-            this.btnSystemSetup.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSystemSetup.Location = new System.Drawing.Point(53, 101);
-            this.btnSystemSetup.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnSystemSetup.Name = "btnSystemSetup";
-            this.btnSystemSetup.Size = new System.Drawing.Size(133, 123);
-            this.btnSystemSetup.TabIndex = 0;
-            this.btnSystemSetup.Text = "Setup Sistem";
-            this.btnSystemSetup.UseVisualStyleBackColor = true;
-            this.btnSystemSetup.Click += new System.EventHandler(this.btnSystemSetup_Click);
+            this.pictureBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(65, 82);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(75, 75);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // btnWork
+            // pictureBox2
             // 
-            this.btnWork.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnWork.Location = new System.Drawing.Point(249, 101);
-            this.btnWork.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnWork.Name = "btnWork";
-            this.btnWork.Size = new System.Drawing.Size(133, 123);
-            this.btnWork.TabIndex = 0;
-            this.btnWork.Text = "Kerja";
-            this.btnWork.UseVisualStyleBackColor = true;
-            this.btnWork.Click += new System.EventHandler(this.btnWork_Click);
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(204, 82);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(75, 75);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // btnAnalytics
+            // pictureBox3
             // 
-            this.btnAnalytics.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnalytics.Location = new System.Drawing.Point(441, 101);
-            this.btnAnalytics.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnAnalytics.Name = "btnAnalytics";
-            this.btnAnalytics.Size = new System.Drawing.Size(133, 123);
-            this.btnAnalytics.TabIndex = 1;
-            this.btnAnalytics.Text = "Analisis";
-            this.btnAnalytics.UseVisualStyleBackColor = true;
-            this.btnAnalytics.Click += new System.EventHandler(this.btnAnalytics_Click);
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(345, 82);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(75, 75);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 5;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(57, 185);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(92, 21);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Manajemen";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(219, 185);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(44, 21);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Kasir";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(349, 185);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(67, 21);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Laporan";
             // 
             // FeatureSelector
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(647, 305);
-            this.Controls.Add(this.btnAnalytics);
-            this.Controls.Add(this.btnWork);
-            this.Controls.Add(this.btnSystemSetup);
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ClientSize = new System.Drawing.Size(485, 278);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FeatureSelector";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FeatureSelector";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnSystemSetup;
-        private System.Windows.Forms.Button btnWork;
-        private System.Windows.Forms.Button btnAnalytics;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
