@@ -153,7 +153,7 @@
             this.btnVAT.Name = "btnVAT";
             this.btnVAT.Size = new System.Drawing.Size(150, 40);
             this.btnVAT.TabIndex = 0;
-            this.btnVAT.Text = "Add VAT";
+            this.btnVAT.Text = "Add PPN";
             this.btnVAT.UseVisualStyleBackColor = true;
             this.btnVAT.Click += new System.EventHandler(this.btnVAT_Click);
             // 
